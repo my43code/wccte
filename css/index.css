@@ -1,0 +1,563 @@
+/* ===============================
+   TOP YELLOW STRIP
+================================*
+.top-strip {
+    background: #f2a900;
+    color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top-strip-text h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.top-strip-text h3 {
+    margin: 2px 0;
+    font-size: 18px;
+}
+.top-strip-text small {
+    font-size: 14px;
+    color: #333;
+}
+
+.top-strip-logos img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+
+/* ===============================
+   ADMISSION WRAPPER
+================================*
+.admission-wrapper {
+    display: flex;
+    padding: 25px;
+    background: #fff;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* LEFT RED BOX *
+.admission-left {
+    background: #b30000;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+}
+.admission-left h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.admission-left h2 {
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+/* RIGHT TEXT + IMAGE BOXES *
+.admission-right {
+    flex: 1;
+}
+.admission-right-top {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.admission-right-photos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.photo-box {
+    width: 150px;
+    height: 90px;
+    background: #ddd;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    color: #555;
+}
+
+
+/* ===============================
+   BODY SECTION (text + programs)
+================================*
+.body-section {
+    padding: 25px;
+    background: #fff;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.body-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.body-text h3 {
+    font-size: 20px;
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.programs {
+    flex: 1;
+    min-width: 300px;
+}
+
+.programs h3 {
+    font-size: 20px;
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.programs ul {
+    padding-left: 20px;
+    line-height: 1.7;
+}
+
+/* ===============================
+   QR + CLOSING DATE ROW
+================================*
+.bottom-row {
+    padding: 25px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.qr-box {
+    width: 120px;
+    height: 120px;
+    background: #e3e3e3;
+    border: 2px dashed #999;
+    text-align: center;
+    line-height: 120px;
+    font-size: 14px;
+    color: #555;
+}
+
+.closing-info {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    flex: 1;
+}
+
+/* ===============================
+   CONTACT BAR
+================================*
+.contact-bar {
+    background: #f2a900;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contact-bar span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+
+/* ===============================
+   MOBILE RESPONSIVE
+================================*
+@media(max-width: 768px) {
+
+    .top-strip {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .admission-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .admission-left {
+        width: 100%;
+    }
+    .admission-right-photos {
+        justify-content: center;
+    }
+
+    .body-section {
+        flex-direction: column;
+    }
+
+    .programs {
+        width: 100%;
+    }
+
+    .bottom-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .closing-info {
+        text-align: center;
+    }
+
+    .contact-bar {
+        flex-direction: column;
+    }
+}
+
+/* QR CODE BOX *
+.qr-code {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 250px;
+    margin: 20px auto;
+}
+
+.qr-code h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #b30000;
+}
+
+.qr-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 4px solid #b30000;
+    border-radius: 10px;
+}
+
+.qr-caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+}*/
+/* ================================
+   MAIN WRAPPER
+================================ */
+.home-main {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+/* ================================
+   TOP YELLOW STRIP
+================================ */
+.top-strip {
+    background: #f4c430; /* Yellow */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #b30000;
+}
+
+.top-strip-text h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.top-strip-text h3 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.top-strip-text small {
+    display: block;
+    margin-top: 8px;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.top-strip-logos img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+
+/* ================================
+   ADMISSION RED BLOCK
+================================ */
+.admission-wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* LEFT RED YEAR BOX */
+.admission-left {
+    width: 28%;
+    background: #b30000; /* Deep red */
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.admission-left h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.admission-left h2 {
+    font-size: 26px;
+    margin-top: 5px;
+    line-height: 1.1;
+}
+
+/* RIGHT SECTION */
+.admission-right {
+    width: 72%;
+    padding: 15px 25px;
+}
+
+.admission-right-top {
+    background: #eee;
+    padding: 12px;
+    border-left: 5px solid #b30000;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.admission-right-photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.photo-box {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+
+/* ================================
+   BODY SECTION (Text + Programs)
+================================ */
+.body-section {
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+/* LEFT TEXT */
+.body-text {
+    width: 65%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.body-text h3 {
+    color: #b30000;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+/* RIGHT PROGRAM LIST */
+.programs {
+    width: 35%;
+    background: linear-gradient(135deg, #fff7ef, #ffe4d1);
+    border: 1px solid #ffcf99;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.programs h3 {
+    color: #b30000;
+    font-size: 22px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.program-card {
+    background: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid #ffd4b2;
+    margin-bottom: 15px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+}
+
+.program-card h4 {
+    margin-bottom: 8px;
+    color: #8c1b00;
+}
+
+.program-card p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.program-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.program-tags span {
+    background: #fff5eb;
+    border: 1px solid #ffd9b8;
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 13px;
+    color: #a33f09;
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 18px;
+    background: #b30000;
+    color: #fff;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 6px 15px rgba(179,0,0,0.3);
+}
+
+.download-btn.secondary {
+    background: #f2a900;
+    color: #4a2b00;
+    box-shadow: 0 6px 15px rgba(242,169,0,0.35);
+}
+
+.download-btn:hover {
+    transform: translateY(-2px);
+}
+
+
+/* ================================
+   BOTTOM ROW (QR + Closing Date)
+================================ */
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/* QR Code Box */
+.qr-code {
+    text-align: left;
+    margin: 0;
+}
+
+.qr-img {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #555;
+    border-radius: 6px;
+}
+
+.qr-caption {
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Closing Date Box */
+.closing-info {
+    background: #eee;
+    padding: 20px;
+    border-left: 5px solid #b30000;
+    font-size: 16px;
+    text-align: right;
+}
+
+
+/* ================================
+   CONTACT BAR (YELLOW)
+================================ */
+.contact-bar {
+    background: #f4c430;
+    padding: 12px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact-bar span {
+    margin: 0 10px;
+}
+
+
+/* ================================
+   MOBILE RESPONSIVE
+================================ */
+@media(max-width: 768px) {
+
+    .top-strip {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .admission-wrapper {
+        flex-direction: column;
+    }
+
+    .admission-left,
+    .admission-right {
+        width: 100%;
+    }
+
+    .admission-right-photos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .body-section {
+        flex-direction: column;
+    }
+
+    .body-text,
+    .programs {
+        width: 100%;
+    }
+
+    .bottom-row {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 20px;
+    }
+
+    .bottom-row .qr-code,
+    .bottom-row .closing-info {
+        text-align: left;
+    }
+}
+
