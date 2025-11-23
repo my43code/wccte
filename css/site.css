@@ -140,6 +140,7 @@ img {
 
 .logo-verse .verse-text {
     color: rgba(255,255,255,0.9);
+    text-align: left;
 }
 
 nav {
@@ -1237,6 +1238,9 @@ textarea {
     align-items: center;
     max-width: 480px;
     box-shadow: 0 12px 20px rgba(0,0,0,0.08);
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 .qr-row {
@@ -1254,6 +1258,7 @@ textarea {
     width: 120px;
     border-radius: 0.6rem;
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    
 }
 
 .qr-highlight .qr-text {
@@ -1324,10 +1329,14 @@ textarea {
 }
 
 .footer-map {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
+    display: flex;              /* enables flexbox */
+    flex-direction: column;     /* stacks children vertically */
+    gap: 0.4rem;                /* spacing between children */
+    margin-left: 0cm;          /* move block left by ~2cm */
+    /* alternatively: transform: translateX(-2cm); */
+    margin-right: 1cm; 
 }
+
 
 .map-embed {
     width: 100%;
@@ -1366,7 +1375,7 @@ textarea {
 }
 
 .footer-bottom p {
-    text-align: left;
+    text-align: center;
 }
 
 .slides img {
@@ -1770,4 +1779,23 @@ textarea {
         flex-direction: row;
         justify-content: center;
     }
+}
+/* Sticky Button Styles */
+.sticky-btn {
+    position: fixed;        /* stays visible on all pages */
+    bottom: 20px;           /* distance from bottom */
+    right: 20px;            /* distance from right */
+    background-color: #ff0606;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+    z-index: 9999;
+}
+
+.sticky-btn:hover {
+    background-color: #000000;
 }
